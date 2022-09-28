@@ -1,0 +1,31 @@
+.section-1-cover {
+    padding: 15rem 5rem 10rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6rem 4rem;
+}
+
+.couple-img {
+    position: absolute;
+    top: 12.5rem;
+    left: 5rem;
+    width: 75%;
+    z-index: 10;
+}
+.house-ig {
+    position: absolute;
+    top: 25rem;
+    left: 25rem;
+    width: 50%;
+    z-index: 20;
+}
+.section-3-cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 5rem 0rem 4rem 5rem;
+    grid-gap: 25rem 0rem;
+    margin: 0rem auto;
+}
+.container--1 {
+    grid-gap: .5rem;
+}
