@@ -33,7 +33,18 @@
 <body>
     <header>
         <div class="sidebar">
-           <h2><span></span></h2>
+           <h2 class="open"><span></span></h2>
+        </div>
+        <div class="nav hidden">
+            <div class="harmburger">
+                <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </div>
         <div class="container">
             <div class="container-cover">
@@ -363,7 +374,7 @@
         </div>
     </section>
     <section>
-        <div class="section-4"  data-aos="zoom-out" data-aos-once="true" data-aos-delay="50" data-aos-duration="500">
+        <div class="section-4"  data-aos="zoom-out" data-aos-delay="50" data-aos-duration="500">
             <div class="container--1">
                 <figure class="box box1">    
                     <img src="./img/1-min.jpg" alt="">
@@ -436,9 +447,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-        // window.onload = function () {
-        //     console.log('loaded')
-        // }
+      
     </script>
+    <script src="./app.js"></script>
 </body>
 </html>

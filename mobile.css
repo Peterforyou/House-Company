@@ -34,42 +34,74 @@
     height: 40rem;
 }
 .sidebar {
-    height: 7%;
-    width: 100%;
-    position: absolute;
     background-color: var(--primary-color);
+    height: 5rem;
+    position: absolute;
     display: block;
-    overflow: hidden;
+    width: 100%;
 }
 .sidebar h2 span {
     position: absolute;
-    top: 1.3rem;
-    left: 33rem;
     width: 2.5rem;
     height: .2rem;
-    display: block;
-    background-color: var(--white-color); 
+    right: 2rem;
+    top: 1.5rem;
+    background-color: var(--white-color);
 }
 .sidebar h2 span::before {
-    content: "";
+    content: '';
     position: absolute;
-    width: 2.6rem;  
-    top: 1rem;
-    left: -.1rem;
+    width: 2.5rem;
     height: .2rem;
-    display: block;
-    background-color: var(--white-color);    
+    right: 0rem;
+    top: 1rem;
+    background-color: var(--white-color);
 }
 .sidebar h2 span::after {
-    width: 2.6rem;
-    content: "";
+    content: '';
     position: absolute;
-    width: 2.6rem;  
-    top: 2rem;
-    left: -.1rem;
+    width: 2.5rem;
     height: .2rem;
+    right: 0rem;
+    top: 2rem;
+    background-color: var(--white-color);
+}
+.hidden {
+    display: none;
+}
+.nav {
+    position: absolute;
+    height: 40rem;
+    width: 90%;
+    right: 0;
+    background-color: var(--black-color);
+    z-index: 1;
+    transition: all 2s;
+}
+.nav ul {
+    padding-top: 7rem;
+}
+.nav ul li {
+    list-style: none;
     display: block;
-    background-color: var(--white-color);    
+    margin-top: 2rem;
+}
+.nav ul li a {
+    text-decoration: none;
+    display: flex;
+    color: var(--primary-color);
+    z-index: 100;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: all 2s;
+}
+.harmburger a {
+    color: var(--white-color);
+    font-size: 3rem;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
 }
 .container-cover {
     display: block;
